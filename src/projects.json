@@ -1,0 +1,126 @@
+[
+  {
+    "name": "logseq-todoist-plugin",
+    "description": "This plugin has 2 main functions: pull tasks from Todoist, and send tasks to Todoist. Easily pull from designated projects with their deadlines and sub-tasks, or send them to a designated project in Todoist!"
+  },
+  {
+    "name": "logseq-wordcount-plugin",
+    "description": "Simple word counter that counts the number of words or characters, depending on your language of choice. Supports Romanic languages, as well as Asian languages like Chinese or Japanese."
+  },
+  {
+    "name": "logseq-kanban-plugin",
+    "description": "Easily create Kanban boards in Logseq using your blocks. You can also create a TODO/DOING/DONE board that automatically updates depending on the status of your task!"
+  },
+  {
+    "name": "logseq-readwise-plugin",
+    "description": "Sync your highlights from Readwise to Logseq! This unofficial plugin ensures that you are able to review your highlights from within Logseq, and gives you the ability to surface past random highlights for your PKM workflows!"
+  },
+  {
+    "name": "logseq-toc-plugin",
+    "description": "Useful when writing long-form articles, you can use markdown headers (e.g. ‘#’) in your writing, and a Table of Contents will automatically be created for easy organisation and navigation. The TOC can also be moved to the right sidebar so you can just focus on your writing!"
+  },
+  {
+    "name": "logseq-mergepages-plugin",
+    "description": "Accidentally created wrongly spelled pages and referenced to them? Or keyed in information in similar pages like ‘USA” and “United States”?  This plugin helps you to merge these pages together so that your information is not only on one page, but aliases are automatically created so that you do not lose your old references!"
+  },
+  {
+    "name": "logseq-tablerender-plugin",
+    "description": "More of a concept, this plugin uses data from your blocks to create a table on the fly that responds to changes in your data. It also does simple calculations like sum, average and median."
+  },
+  {
+    "name": "logseq-chartrender-plugin",
+    "description": "Use data from your blocks to quicly create bar, line, area and pie charts. Also able to customise the colour and size of the chart on the fly!"
+  },
+  {
+    "name": "logseq-localassets-plugin",
+    "description": "Display asssets that you have saved previously without needing to specify the path, and without dragging and dropping the file again. Supports audio, video, PDFs, images, and most other document types."
+  },
+  {
+    "name": "logseq-keywordfrequency-plugin",
+    "description": "This plugin keeps track of your 30 most used keywords, just for fun! They may eventually be used to search for related pages you have in your graph. Who knows!"
+  },
+  {
+    "name": "logseq-trackhabits2-plugin",
+    "description": "Easily track your habits by just tagging your TODO list with #habit-tracker!"
+  },
+  {
+    "name": "logseq-swapblocks-plugin",
+    "description": "Simple plugin to swap a reference block with its original block and preserve it's other references."
+  },
+  {
+    "name": "logseq-osmmaps-plugin",
+    "description": "This plugin lets you create a map and plot a marker on a specific spot, great for remembering where certain events happen. It can also help you to find routes between two places, perfect for travel planning! Refer to the readme on Github for instructions.."
+  },
+  {
+    "name": "logseq-datenlp-plugin",
+    "description": "This super simple plugin uses NLP to parse your content for dates and times so that they can be easily tracked through your your journal pages! Offers different options such as parsing dates inline (like in Roam42) and adding scheduled or deadline properties!"
+  },
+  {
+    "name": "logseq-tweet-plugin",
+    "description": "Easily tweet from within Logseq and keep track of the tweets that you sent!"
+  },
+  {
+    "name": "logseq-quicktodo-plugin",
+    "description": "This simple plugin helps you to insert a TODO item on your today's journal page, without navigating to it. This maybe useful when you are writing notes on one page, and suddenly want to add a task item regarding a separate matter. Instead of going to your daily page and adding the task there, this plugin allows you to add it using the command palatte."
+  },
+  {
+    "name": "logseq-recurrence-plugin",
+    "description": "This plugin allows you to quickly add recurring blocks based on your desired recurrence. It also allows you to delete inserted recurring blocks as well! When used with the logseq-trackhabits2-plugin, you can easily create habits to track!."
+  },
+  {
+    "name": "logseq-mermaid-plugin",
+    "description": "This simple plugin allows you to quickly insert mermaid diagrams in your notes."
+  },
+  {
+    "name": "logseq-parsecsv-plugin",
+    "description": "A simple plugin that allows you to upload a CSV file and convert its contents to a rendered or markdown table"
+  },
+  {
+    "name": "logseq-calview-plugin",
+    "description": "Plugin to show a calendar view from within Logseq. Offers daily,monthly and yearly views. Ideally used with the logseq-datenlp-plugin to create events that can be displayed from within the calendar"
+  },
+  {
+    "name": "logseq-sliders-plugin",
+    "description": "Simple plugin to insert sliders to your notes to offer a different graphical representation!"
+  },
+  {
+    "name": "logseq-recipeimporter-plugin",
+    "description": "A simple plugin to import recipes directly into Logseq just by using the URL of the recipe!"
+  },
+  {
+    "name": "logseq-psummarise-plugin",
+    "description": "This plugin tries to emulate the Progressive Summarisation approacy by Tiago Forte's Building a Second Brain course."
+  },
+  {
+    "name": "logseq-writegood-plugin",
+    "description": "This simple plugin leverages on btford's write-good plugin to offer English prose suggestions to your writing. All suggestions are provided locally and no data is sent to any external servers."
+  },
+  {
+    "name": "logseq-dateutils",
+    "description": "NPM package that helps Logseq plugin developers to easier cater to all the different user defined date formats that Logseq offers."
+  },
+  {
+    "name": "carecosts-sg",
+    "description": "A concept app that helps patients or their families have a broad understanding of the costs expected to incur depending on their physical condition."
+  },
+  {
+    "name": "ecomap-locator",
+    "description": "simple"
+  },
+  {
+    "name": "rehabcentre-checker",
+    "description": "A dashboard that allows service providers to update their availability so that social workers need not call each one of them to find out the latest vacant slots."
+  },
+  {
+    "name": "telegram-mswbot-js",
+    "description": "Simple telegram bot that allows social workers to query for information from a bot."
+  },
+  {
+    "name": "discord-sgmsws-bot",
+    "description": "Simple discord bot that sits in your Discord channel to answer questions and direct social workers to appropriate resources."
+  },
+  {
+    "name": "logseq-dailyreflections-plugin",
+    "description": "I use this personally almost everyday to start my day. Comprising of a daily reflection from Creighton Jesuit University and a space for my personal reflections (amongst others), this plugin saves me time navigating to pages and creating iFrames that need to change on a daily basis."
+  }
+]
