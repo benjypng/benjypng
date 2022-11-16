@@ -96,6 +96,18 @@
     "description": "This simple plugin leverages on btford's write-good plugin to offer English prose suggestions to your writing. All suggestions are provided locally and no data is sent to any external servers."
   },
   {
+    "name": "chrome-extension-logseq-quickcapture",
+    "description": "Chrome extension to do quick capture to Logseq. Supports preservation of links and some media."
+  },
+  {
+    "name": "firefox-extension-logseq-quickcapture",
+    "description": "Firefox extension to do quick capture to Logseq. Supports preservation of links and some media."
+  },
+  {
+    "name": "logseq-power-plugin",
+    "description": "If you need to ask, you don't need to know."
+  },
+  {
     "name": "logseq-dateutils",
     "description": "NPM package that helps Logseq plugin developers to easier cater to all the different user defined date formats that Logseq offers."
   },
