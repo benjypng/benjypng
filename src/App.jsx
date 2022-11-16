@@ -1,6 +1,6 @@
 import memoji from "./memoji.png";
 import Card from "./Card";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import projectsList from "./projects.json";
 
 const App = () => {
@@ -24,6 +24,10 @@ const App = () => {
       tmpArr.push(stars);
     }
     setTotalStars(tmpArr);
+    setSumTotal((prevState) => ({
+      ...prevState,
+      totalStars: totalStars.reduce((a, b) => a + b, 0),
+    }));
   };
 
   const addDownloads = (downloads) => {
@@ -32,14 +36,11 @@ const App = () => {
       tmpArr.push(downloads);
     }
     setTotalDownloads(tmpArr);
-  };
-
-  useEffect(() => {
-    setSumTotal({
-      totalStars: totalStars.reduce((a, b) => a + b, 0),
+    setSumTotal((prevState) => ({
+      ...prevState,
       totalDownloads: totalDownloads.reduce((a, b) => a + b, 0),
-    });
-  }, [totalStars, totalDownloads]);
+    }));
+  };
 
   return (
     <div className={toggle ? "dark" : ""}>
@@ -99,15 +100,9 @@ const App = () => {
                 checked={toggle}
                 onChange={handleToggle}
               />
-              <label
-                for="toggle"
-                className="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"
-              ></label>
+              <label className="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
             </div>
-            <label
-              for="toggle"
-              className="text-xs text-gray-700 mt-4 dark:text-white"
-            >
+            <label className="text-xs text-gray-700 mt-4 dark:text-white">
               <i className="fas fa-moon"></i>
             </label>
           </div>
