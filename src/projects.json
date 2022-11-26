@@ -104,6 +104,10 @@
     "description": "Firefox extension to do quick capture to Logseq. Supports preservation of links and some media."
   },
   {
+    "name": "alfredworkflow-logseq-quicknote",
+    "description": "This Alfred workflow adds a Quick Note to an already open Logseq instance using the quickCapture method."
+  },
+  {
     "name": "logseq-power-plugin",
     "description": "If you need to ask, you don't need to know."
   },
