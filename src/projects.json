@@ -108,6 +108,10 @@
     "description": "This Alfred workflow adds a Quick Note to an already open Logseq instance using the quickCapture method."
   },
   {
+    "name": "electron-logseq-quicknote",
+    "description": "This is an untested version of the Logseq Quicknote Alfred Workflow. It is a first attempt at building a simple Electron app."
+  },
+  {
     "name": "logseq-power-plugin",
     "description": "If you need to ask, you don't need to know."
   },
