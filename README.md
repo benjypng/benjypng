@@ -1,1 +1,1 @@
-![hkgnp's GitHub stats](https://github-readme-stats-pqubpee1n-hkgnp.vercel.app/api?username=hkgnp)
+![hkgnp's GitHub stats](https://github-readme-stats-hkgnp.vercel.app/api?username=hkgnp)
