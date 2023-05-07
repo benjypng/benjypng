@@ -1,2 +1,2 @@
 
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=hkgnp)]()
+[![My GitHub stats](https://github-readme-stats-hkgnp.vercel.app/api?username=hkgnp)]()
